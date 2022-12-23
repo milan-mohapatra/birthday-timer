@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Birthday Timer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="input">
+        <h1>WHAT IS THE DATE OF BIRTH</h1>
+
+        <input type="text" id="name" placeholder="Enter first name" required/>
+        <div id="box">
+          <input type="number" id="date" placeholder="Enter date" required />
+        <input type="number" id="month" placeholder="Enter month" required />
+        </div>
+        <button type="submit">SUBMIT</button>
+      </form>
+
+      <div id="timer">
+        <h1 id="headerTimer">Happy Birthday Milan</h1>
+
+        <div id="para">
+          <p><span class="days">00</span> Days</p>
+          <p><span class="hours">00</span> Hours</p>
+          <p><span class="minutes">00</span> Minutes</p>
+          <p><span class="seconds">00</span> Seconds</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
